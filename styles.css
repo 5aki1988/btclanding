@@ -34,18 +34,58 @@ ul{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    padding-top: 15px;
 }
 
 .container p{
     font-size: 18px;
     color: #E5E7EB;
+    text-align: justify;
 }
 
 .navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul{
     display: flex;
 }
 
 .navbar a{
     color: white;
     text-decoration: none;
+}
+
+.navbar ul li{
+    margin-left: 20px;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxes .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    flex:1;
+}
+
+.box img{
+    border-radius: 30px;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.box p{
+    font-size: 18px;
+    color: grey;
+    text-align: center;
 }
