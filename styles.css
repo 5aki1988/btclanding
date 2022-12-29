@@ -13,7 +13,7 @@ img{
 }
 
 h1{
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 ul{
@@ -96,4 +96,20 @@ ul{
     color: #1F2937;
     margin:20px;
     text-align: center;
+    max-width: 800px;
+}
+
+.quote .container{
+    margin-top: 100px;
+    padding: 100px;
+    box-sizing: border-box;
+    background-color: #E5E7EB;
+    max-width: none;
+    text-align: center;
+}
+
+.container div{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
