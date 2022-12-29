@@ -72,6 +72,7 @@ ul{
 .boxes .container{
     display: flex;
     justify-content: space-between;
+    max-width: 800px;
 }
 
 .box{
