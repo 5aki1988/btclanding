@@ -1,0 +1,1 @@
+Creating a BTC landing page - Odin Project Assignment 
