@@ -1,35 +1,43 @@
+/* Prep layout of landing page */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* Text set to Roboto for entire page */
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* width of images */
 img{
-    max-width: 100%;
+    max-width:100%
 }
 
+/* Hero text margin*/
 h1{
     margin-bottom: 20px;
 }
 
+/* Get rid of bullet points*/
 ul{
     list-style-type:none;
 }
 
+/* Container parameters */
 .container{
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 30px;
 }
 
+/* Background color set for the top section of landing page */
 .navbar, .header{
     background: #1F2937;
 }
 
+/* Hero main text parameters */
 .container h1{
     font-size: 48px;
     font-weight: bolder;
@@ -37,12 +45,14 @@ ul{
     padding-top: 15px;
 }
 
+/* Hero secondary text parameters */
 .container p{
     font-size: 18px;
     color: #E5E7EB;
     text-align: justify;
 }
 
+/* Logo and links are flexed and put into respective places  */
 .navbar .container{
     display: flex;
     justify-content: space-between;
@@ -50,46 +60,55 @@ ul{
     height: 100%;
 }
 
+/* Links are flexed into row */
 .navbar ul{
     display: flex;
 }
 
+/* Links are spaced out using margin */
+.navbar ul li{
+    margin-left: 20px;
+}
+
+/* Links are set to white color and no decoration */
 .navbar a{
     color: white;
     text-decoration: none;
 }
 
-.navbar ul li{
-    margin-left: 20px;
-}
-
+/* Hero text and image are flexed, centered and spaced out */
 .header .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+/* 4 images are flexed from column to row, spaced and with width indicated*/
 .boxes .container{
     display: flex;
     justify-content: space-between;
     max-width: 800px;
 }
 
+
 .box{
     flex:1;
 }
 
+/* Images are given rounded corners and padding */
 .box img{
     border-radius: 30px;
     padding: 10px;
 }
 
+/* Caption under the images are set*/
 .box p{
     font-size: 18px;
     color: grey;
     text-align: center;
 }
 
+/* Parameters for information header text */
 .rabbit {
     font-size: 36px;
     font-weight: bold;
@@ -99,6 +118,7 @@ ul{
     max-width: 800px;
 }
 
+/* Quote layout parameters */
 .quote .back{
     margin-top: 100px;
     padding: 50px;
@@ -107,18 +127,21 @@ ul{
     max-width: none;
 }
 
+/*Quote is flexed and centered*/
 .quote .container{
     display: flex;
     flex-direction: column;
     max-width: 800px;
 }
 
+/*Quote parameters*/
 .container div{
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
 }
 
+/*Satoshi parameters*/
 .container b{
     padding: 20px;
     font-size: 18px;
@@ -126,8 +149,8 @@ ul{
     align-self: end;
 }
 
-
-.call .blue{
+/*Prep layout for Call to action portion of landing page*/
+.call .tangle{
     padding: 100px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -135,7 +158,8 @@ ul{
     background-color: white;
 }
 
-.call .tangle{
+/*Prep blue rectangle for Call to action*/
+.call .blue{
     display: flex;
     flex-direction: column;
     background-color: #3882F6;
@@ -145,17 +169,20 @@ ul{
     color: white;
 }
 
-.tangle v{
+/*Parameters for Call to action first line*/
+.blue v{
     font-weight: bold;
     font-size: large;
     width: 50%
 }
 
-.tangle c{
+/*Parameters for Call to action second line*/
+.blue c{
     line-height: 1.5;
     width: 80%;
 }
 
+/*Button positioning*/
 .call .button{
     display: flex;
     justify-content: end;
@@ -163,6 +190,7 @@ ul{
     
 }
 
+/*Button parameters*/
 .button button{
     width:100px;
     height: 25px;
@@ -172,10 +200,11 @@ ul{
     font-weight: bold;
 }
 
+/*Footer parameters, Copyright portion of landing page*/
 .footer .copyright{
     background-color: #1F2937;
     color: white;
-    font-size:10px;
+    font-size:15px;
     text-align: center;
     padding: 25px;
 }
