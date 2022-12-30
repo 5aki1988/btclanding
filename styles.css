@@ -99,17 +99,30 @@ ul{
     max-width: 800px;
 }
 
-.quote .container{
+.quote .back{
     margin-top: 100px;
     padding: 100px;
     box-sizing: border-box;
     background-color: #E5E7EB;
     max-width: none;
-    text-align: center;
+}
+
+.quote .container{
+    display: flex;
+    max-width: 800px;
 }
 
 .container div{
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    padding: 10px;
+    text-align: justify;
+}
+
+.container b{
+    font-style: italic;
+    color: black;
+    align-self: flex-end;
+    width: 50%;
 }
