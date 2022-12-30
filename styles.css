@@ -101,7 +101,7 @@ ul{
 
 .quote .back{
     margin-top: 100px;
-    padding: 100px;
+    padding: 50px;
     box-sizing: border-box;
     background-color: #E5E7EB;
     max-width: none;
@@ -124,4 +124,58 @@ ul{
     font-size: 18px;
     color: #1F2937;
     align-self: end;
+}
+
+
+.call .blue{
+    padding: 100px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 1100px;
+    background-color: white;
+}
+
+.call .tangle{
+    display: flex;
+    flex-direction: column;
+    background-color: #3882F6;
+    padding: 30px;
+    border-radius: 10px;
+    padding-left: 80px;
+    color: white;
+}
+
+.tangle v{
+    font-weight: bold;
+    font-size: large;
+    width: 50%
+}
+
+.tangle c{
+    line-height: 1.5;
+    width: 80%;
+}
+
+.call .button{
+    display: flex;
+    justify-content: end;
+    height:100%;
+    
+}
+
+.button button{
+    width:100px;
+    height: 25px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.footer .copyright{
+    background-color: #1F2937;
+    color: white;
+    font-size:10px;
+    text-align: center;
+    padding: 25px;
 }
