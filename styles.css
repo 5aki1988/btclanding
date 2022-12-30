@@ -109,6 +109,7 @@ ul{
 
 .quote .container{
     display: flex;
+    flex-direction: column;
     max-width: 800px;
 }
 
@@ -116,13 +117,11 @@ ul{
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    padding: 10px;
-    text-align: justify;
 }
 
 .container b{
-    font-style: italic;
-    color: black;
-    align-self: flex-end;
-    width: 50%;
+    padding: 20px;
+    font-size: 18px;
+    color: #1F2937;
+    align-self: end;
 }
