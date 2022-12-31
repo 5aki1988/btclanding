@@ -161,7 +161,7 @@ ul{
 /*Prep blue rectangle for Call to action*/
 .call .blue{
     display: flex;
-    flex-direction: column;
+justify-content: space-between;
     background-color: #3882F6;
     padding: 30px;
     border-radius: 10px;
@@ -169,31 +169,10 @@ ul{
     color: white;
 }
 
-/*Parameters for Call to action first line*/
-.blue v{
-    font-weight: bold;
-    font-size: large;
-    width: 50%
-}
-
-/*Parameters for Call to action second line*/
-.blue c{
-    line-height: 1.5;
-    width: 80%;
-}
-
-/*Button positioning*/
-.call .button{
-    display: flex;
-    justify-content: end;
-    height:100%;
-    
-}
-
 /*Button parameters*/
 .button button{
     width:100px;
-    height: 25px;
+    height: 100%;
     background-color: #3882F6;
     border-radius: 5px;
     color: white;
